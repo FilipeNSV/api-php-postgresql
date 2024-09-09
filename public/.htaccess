@@ -1,0 +1,7 @@
+RewriteEngine On
+<!-- RewriteBase /public -->
+
+# Redirecionar todas as solicitações para index.php, exceto para arquivos e diretórios existentes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
