@@ -63,15 +63,13 @@ The following are the API routes and their respective controllers:
 - **POST /api/user-create:** Registers a new user. Controller: `UserController@createUser`.
 - **POST /api/user-login:** Authenticates the user. Controller: `AuthController@login`.
 
-Make sure to adjust the routes and controllers according to the actual structure of your project.
-
 ## Execution
 
 To run the application, follow the steps below:
 
 1. **Clone this repository:**
    ```sh
-   git clone https://github.com/FilipeNSV/marked-stock-control
+   git clone https://github.com/FilipeNSV/api-php-postgresql
 
 2. **Navigate to the project directory:**
    ```sh
